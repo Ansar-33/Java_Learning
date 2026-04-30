@@ -1,4 +1,3 @@
-// Program to find a character is vowel or a consonant 
 // import java.util.*;
 // public class conditionalst {
 //     public static void main(String [] args){
@@ -17,7 +16,7 @@
 
 
 
-// Program to find a given number is Positive or Negative or Z
+
 // import java.util.*;
 // public class conditionalst {
 //     public static void main(String [] args){
@@ -35,7 +34,7 @@
 // }
 
 
-// Program to check Pass or Fail
+
 // import java.util.*;
 // public class conditionalst {
 //    public static void main(String [] args){
@@ -52,7 +51,6 @@
 // }
 
 
-// Program to find Larger Number
 // import java.util.*;
 // public class conditionalst {
 //     public static void main(String[] args) {
@@ -72,7 +70,7 @@
 // }
 
 
-// Program to find Vote Eligiblity
+
 import java.util.*;
 public class conditionalst {
     public static void main(String[] args) {
