@@ -5,7 +5,7 @@ public class scannerclass {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your Name: ");
         String name = sc.nextLine();
-        System.out.println("Hi "+name);
+        System.out.println("Hi "+name); 
 
         System.out.println("Enter your Place: ");
         String place = sc.nextLine();
@@ -13,7 +13,7 @@ public class scannerclass {
 
         System.out.println("Enter your State: ");
         String state = sc.nextLine();
-        System.out.println("Your Place is: "+state);
+        System.out.println("Your State is: "+state);
 
         System.out.println("Enter your Age: ");
         byte age = sc.nextByte();
