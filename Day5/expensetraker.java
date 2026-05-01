@@ -3,7 +3,7 @@ public class expensetraker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Tracker t = new Tracker(); 
-        System.out.println("Enter the product name (0 to stop)");
+        System.out.println("Enter the product name. 0 to stop");
         String prod = sc.nextLine();
 
         while (!prod.equals("0")) {
@@ -11,7 +11,7 @@ public class expensetraker {
             double amt = sc.nextDouble();
             sc.nextLine(); 
             t.addExpense(amt);
-            System.out.println("Enter the product name (0 to stop)");
+            System.out.println("Enter the product name. 0 to stop");
             prod = sc.nextLine();
         }  
     }
