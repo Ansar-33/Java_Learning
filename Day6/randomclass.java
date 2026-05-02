@@ -9,7 +9,7 @@ public class randomclass {
         System.out.println(f);
         double d = rn.nextDouble();
         System.out.println(d);
-        double g = rn.nextGaussian();
+        double g = 10+(2*rn.nextGaussian());
         System.out.println(g);
         
     }
