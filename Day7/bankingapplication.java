@@ -25,14 +25,14 @@ public class bankingapplication {
             }
             else{
                 System.out.println("Please Enter a Valid Choice.");
+                
             }
         }     
         else{
             System.out.println("Invalid Pin. Please Enter a Correct Pin.");
+            
         }
 }
- 
-    
 }
 
 class bank{
@@ -46,7 +46,7 @@ class bank{
         balance += amount;
     System.out.println("New Balance: "+balance);
     }
-    
+
     void withdw(double withdW){
         balance -= withdW;
     System.out.println("Balance After Withdraw: "+balance);
