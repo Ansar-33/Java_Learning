@@ -6,7 +6,7 @@ public class mathClass {
         float num1 = sc.nextFloat();
 
         System.out.print("Enter a num2: ");                                //Enter num2
-        float num2 = sc.nextFloat();
+        float num2 = sc.nextFloat(); 
 
         System.out.println("Enter value in Degrees: ");          
         double deg = sc.nextDouble();
@@ -41,3 +41,4 @@ public class mathClass {
     }
 }
 
+ 
