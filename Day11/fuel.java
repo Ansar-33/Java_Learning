@@ -20,6 +20,11 @@ public class fuel {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of litres:");
         int l = sc.nextInt();
+        if(l<=0){
+            System.out.println("Invalid input");
+            return;
+        }
+        else{
         System.out.println("Enter the distance:");
         int d = sc.nextInt();
         float c = (float)(l)/(float)(d)*100;
@@ -27,5 +32,6 @@ public class fuel {
         double miles = (float)(d)*0.6214;
         double gallons = (float)(l)*0.2642;
         System.out.println("Miles/Gallons: " + miles/gallons);
+        }
     }
 }
